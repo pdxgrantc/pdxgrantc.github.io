@@ -3,6 +3,7 @@
     --button-presed: rgb(38, 45, 64);
     --white-color: rgb(214, 214, 214);
     --accent-button: rgb(106, 105, 245);
+    --accent-text: rgb(71, 82, 102);
 }
 
 body {
@@ -10,9 +11,10 @@ body {
     background-color: var(--main-bg-color);
 }
 
-#contents {
+#fullContents {
     margin: auto;
-    width: 90%;
+    width: 85%;
+    margin-top: 30px;
 }
 
 #navBar {
@@ -55,17 +57,26 @@ body {
     background-color: var(--button-presed);
 }
 
+#contentGap {
+    height: 75px;
+}
+
+/*page information*/
 #meContent {
-    width: 100%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
+    gap: 2%;
+    justify-content: space-between;
 }
 
-#meText {
-    width: 40%;
+.contentCol {
+    width: 48%;
 }
 
-#mePhoto {
-    width: 40%;
+#mePhotoImg {
+    padding-left: 10%;
+    width: 90%;
+    height: auto;
 }
