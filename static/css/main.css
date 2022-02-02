@@ -67,7 +67,7 @@ body {
     margin: auto;
     display: flex;
     flex-direction: row;
-    gap: 2%;
+    gap: 4%;
     justify-content: space-between;
 }
 
@@ -75,8 +75,20 @@ body {
     width: 48%;
 }
 
+#meText {
+    background-color: var(--button-presed);
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.downloadButton {
+    padding: 1%;
+    background-color: var(--accent-button);
+    margin: auto;
+}
+
 #mePhotoImg {
-    padding-left: 10%;
-    width: 90%;
+    width: 100%;
     height: auto;
+    border-radius: 15px;
 }
