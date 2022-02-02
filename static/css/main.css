@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    margin: auto;
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItem {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
