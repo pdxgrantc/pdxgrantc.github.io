@@ -3,6 +3,7 @@
     --button-presed: rgb(38, 45, 64);
     --white-color: rgb(214, 214, 214);
     --accent-button: rgb(106, 105, 245);
+    --accent-button-presed: rgb(52, 51, 112);
     --accent-text: rgb(71, 82, 102);
 }
 
@@ -63,7 +64,7 @@ body {
 
 /*page information*/
 #meContent {
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -82,9 +83,16 @@ body {
 }
 
 .downloadButton {
-    padding: 1%;
+    padding: 10px 25px;
     background-color: var(--accent-button);
     margin: auto;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.downloadButton:hover {
+    padding: 10px 25px;
+    background-color: var(--accent-button-presed);
 }
 
 #mePhotoImg {
