@@ -98,15 +98,54 @@ body {
     border-radius: 15px;
 }
 
+#writtenContent {
+    margin-top: 35px;
+}
+
+#hello {
+    font-size: 24px;
+    line-height: 18px;
+}
+
+#namecard {
+    line-height: 35px;
+    font-size: 46px;
+}
+
+#majorTextContainer {
+    margin-top: 95px;
+    margin-bottom: 55px;
+}
+
+#webDev {
+    line-height: 10px;
+}
+
+#goal {
+    font-size: 22px;
+}
+
+.majorText {
+    font-size: 32px;
+}
+
+#resumeContainer {
+    position: relative;
+    -ms-transform: translate(55%, 55%);
+    transform: translate(55%, 40%);
+    display: flex;
+}
+
 .downloadButton {
-    padding: 10px 25px;
+    padding: 26px 40px;
+    font-size: 22px;
     background-color: var(--accent-button);
     border-radius: 15px;
     cursor: pointer;
+    width: fit-content;
 }
 
 .downloadButton:hover {
-    padding: 10px 25px;
     background-color: var(--accent-button-presed);
 }
 
@@ -142,6 +181,7 @@ body {
 
 .logoLink:hover {
     -webkit-filter: invert(95%) !important;
+    filter: invert(95%) !important;
 }
 
 #footerText {
