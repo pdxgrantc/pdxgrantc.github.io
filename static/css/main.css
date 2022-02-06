@@ -131,14 +131,14 @@ body {
 
 #resumeContainer {
     position: relative;
-    -ms-transform: translate(55%, 55%);
-    transform: translate(55%, 40%);
+    -ms-transform: translate(47%, 40%);
+    transform: translate(47%, 40%);
     display: flex;
 }
 
 .downloadButton {
     padding: 26px 40px;
-    font-size: 22px;
+    font-size: 26px;
     background-color: var(--accent-button);
     border-radius: 15px;
     cursor: pointer;
