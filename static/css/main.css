@@ -12,6 +12,11 @@ body {
     background-color: var(--main-bg-color);
 }
 
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
 #fullContents {
     margin: auto;
     width: 77%;
@@ -108,12 +113,12 @@ body {
 }
 
 #namecard {
-    line-height: 35px;
+    line-height: 45px;
     font-size: 46px;
 }
 
 #majorTextContainer {
-    margin-top: 95px;
+    margin-top: 75px;
     margin-bottom: 55px;
 }
 
@@ -134,10 +139,6 @@ body {
     -ms-transform: translate(47%, 40%);
     transform: translate(47%, 40%);
     display: flex;
-}
-
-#resumeContainer a {
-    text-decoration: none;
 }
 
 .downloadButton {
@@ -170,6 +171,7 @@ body {
     flex-direction: column;
     margin: auto;
     gap: 1vh;
+    margin-bottom: 50px;
 }
 
 #footerLinks {
@@ -185,8 +187,8 @@ body {
 }
 
 .logoLink:hover {
-    -webkit-filter: invert(95%) !important;
-    filter: invert(95%) !important;
+    -webkit-filter: invert(95%);
+    filter: invert(95%);
 }
 
 #footerText {
