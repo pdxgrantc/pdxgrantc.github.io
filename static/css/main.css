@@ -176,7 +176,7 @@ body {
     margin: auto;
     display: flex;
     flex-direction: row;
-    gap: 1vw;
+    gap: 3vw;
 }
 
 .logoLink {
