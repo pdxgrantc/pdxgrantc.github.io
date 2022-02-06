@@ -5,4 +5,27 @@
     --accent-button: rgb(106, 105, 245);
     --accent-button-presed: rgb(52, 51, 112);
     --accent-text: rgb(71, 82, 102);
+    --border-radius: 15px;
+}
+
+input {
+    border-radius: 7px;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+#pageSpecificContent {
+    background-color: var(--button-presed);
+    border-radius: var(--border-radius);
+    width: 100%;
+}
+
+#emailContainer {
+    padding: 2% 4.5%;
+}
+
+#names {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
