@@ -23,6 +23,10 @@ a {
     margin-top: 30px;
 }
 
+#topContentGap {
+    height: 20px;
+}
+
 /*header*/
 #navBar {
     display: flex;
@@ -80,12 +84,12 @@ a {
 }
 
 #contentGap {
-    height: 50px;
+    height: 60px;
 }
 
 /*Footer*/
 #footerGap {
-    height: 50px;
+    height: 60px;
 }
 
 #footer {
