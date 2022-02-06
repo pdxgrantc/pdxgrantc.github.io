@@ -1,0 +1,76 @@
+#meContent {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: space-between;
+}
+
+.contentCol {
+    width: 47.5%;
+}
+
+#meText {
+    background-color: var(--button-presed);
+    padding: 2% 4.5%;
+    border-radius: 15px;
+}
+
+#writtenContent {
+    margin-top: 35px;
+}
+
+#hello {
+    font-size: 24px;
+    line-height: 18px;
+}
+
+#namecard {
+    line-height: 45px;
+    font-size: 46px;
+}
+
+#majorTextContainer {
+    margin-top: 75px;
+    margin-bottom: 55px;
+}
+
+#webDev {
+    line-height: 10px;
+}
+
+#goal {
+    font-size: 22px;
+}
+
+.majorText {
+    font-size: 32px;
+}
+
+#resumeContainer {
+    position: relative;
+    -ms-transform: translate(55%, 40%);
+    transform: translate(55%, 40%);
+    display: flex;
+}
+
+.downloadButton {
+    color: var(--white-color);
+    padding: 26px 40px;
+    font-size: 24px;
+    background-color: var(--accent-button);
+    border-radius: 15px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.downloadButton:hover {
+    background-color: var(--accent-button-presed);
+}
+
+#mePhotoImg {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
