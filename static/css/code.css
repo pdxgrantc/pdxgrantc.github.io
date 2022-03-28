@@ -7,14 +7,33 @@
     --accent-text: rgb(71, 82, 102);
 }
 
+#repos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .project {
     background-color: var(--button-presed);
-    padding: 2% 4.5%;
+    padding: 1.5% 3.5%;
     border-radius: 15px;
+}
+
+.date-and-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .project-title {
     font-size: 32px;
+    line-height: 24px;
+}
+
+.project-date {
+    font-size: 24px;
+    line-height: 24px;
+ 
 }
 
 .project-description {
@@ -28,7 +47,7 @@
 
 .download-button {
     color: var(--white-color);
-    padding: 26px 40px;
+    padding: 18px 24px;
     font-size: 24px;
     background-color: var(--accent-button);
     border-radius: 15px;
