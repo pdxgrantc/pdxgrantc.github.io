@@ -57,3 +57,7 @@
 .download-button:hover {
     background-color: var(--accent-button-presed);
 }
+
+#footer {
+    margin-top: 15px;
+}
